@@ -1,2 +1,0 @@
-# lovellworks
-personal website
