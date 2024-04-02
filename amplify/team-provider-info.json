@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifya9de725e03504-staging-53756",
       "StackId": "arn:aws:cloudformation:us-east-2:880046081667:stack/amplify-amplifya9de725e03504-staging-53756/fe36b280-efe9-11ee-81e5-0a830b0a10ff",
       "AmplifyAppId": "dpgiealsribqq"
+    },
+    "categories": {
+      "auth": {
+        "lovellworks38461c68": {}
+      }
     }
   }
 }
