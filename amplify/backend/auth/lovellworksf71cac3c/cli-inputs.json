@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "lovellworks38461c68_identitypool_38461c68",
+    "identityPoolName": "lovellworksf71cac3c_identitypool_f71cac3c",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "lovell38461c68",
-    "userPoolName": "lovellworks38461c68_userpool_38461c68",
+    "resourceNameTruncated": "lovellf71cac3c",
+    "userPoolName": "lovellworksf71cac3c_userpool_f71cac3c",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,42 +31,15 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "lovell38461c68_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "lovellf71cac3c_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "38461c68",
-    "resourceName": "lovellworks38461c68",
+    "sharedId": "f71cac3c",
+    "resourceName": "lovellworksf71cac3c",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
-    "hostedUI": false,
-    "usernameAttributes": [
-      "email, phone_number"
-    ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
-    "useEnabledMfas": true,
-    "authRoleArn": {
-      "Fn::GetAtt": [
-        "AuthRole",
-        "Arn"
-      ]
-    },
-    "unauthRoleArn": {
-      "Fn::GetAtt": [
-        "UnauthRole",
-        "Arn"
-      ]
-    },
-    "breakCircularDependency": true,
-    "dependsOn": [],
-    "userPoolGroups": false,
-    "adminQueries": true,
-    "triggers": {},
-    "adminQueryGroup": "asdf",
-    "parentStack": {
-      "Ref": "AWS::StackId"
-    },
-    "permissions": [],
-    "authProviders": []
+    "useEnabledMfas": true
   }
 }
