@@ -9,9 +9,3 @@ type Note @model @auth(rules: [ { allow: public } ] ){
   image: String
 }
 
-type Todo @model {
-  id: ID!
-  name: String!
-  description: String
-}
-
